@@ -1,6 +1,9 @@
 # Angular-Routing
 this repository is for describing the angular routing.
+### for routing you need to change two one is app.route.ts and another is where you are providing the routing link
+# here is example how routing works in angular 17 or 18
 
+# here is code for app.route.ts file 
 
 ```javascript
 import { Routes } from '@angular/router';
@@ -31,6 +34,8 @@ export const routes: Routes = [
 
 
 ```
+
+# here is the code for app.component.html
 
 ```html
 
