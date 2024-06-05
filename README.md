@@ -3,7 +3,7 @@ this repository is for describing the angular routing.
 ### for routing you need to change two file one is app.route.ts and another is where you are providing the routing link or navigation
 # here is example how routing works in angular 17 or 18
 
-# here is code for app.route.ts file 
+# here is code for app.route.ts file of angular
 
 ```javascript
 import { Routes } from '@angular/router';
