@@ -1,0 +1,16 @@
+<nav>
+  <ul>
+    <li><a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" ariaCurrentWhenActive="page">Home</a></li>
+    <li><a routerLink="/about" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" ariaCurrentWhenActive="page">about</a></li>
+    <li><a routerLink="/details" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" ariaCurrentWhenActive="page">details</a></li>
+    <li><a routerLink="/contact" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" ariaCurrentWhenActive="page">contactus</a></li>
+  </ul>
+</nav>
+
+<router-outlet></router-outlet>
+
+<footer style="text-align: center;">
+  <p>all rights reserved © {{year}} by Bharat yadav  </p>
+</footer>
+
+<!-- this is the html file where we are providing links for smooth navigation  -->
